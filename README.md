@@ -1,6 +1,3 @@
-# sailperf_n2k
-S A I L P E R F - N2K is an open-source Python library for logging and displaying NMEA2000 data specifically for sail performance analysis.
-=======
 
 <!--  ![SailPerf-N2K Logo](assets/logo.png)  -->
 
@@ -11,11 +8,11 @@ S A I L P E R F - N2K is an open-source Python library for logging and displayin
 
 
 
-## S A I L P E R F - N2K* is an open-source Python library for logging and displaying NMEA2000 data for sailboat performance analysis.  
+### S A I L P E R F - N2K* is an open-source Python library for logging and displaying NMEA2000 data for sailboat performance analysis.  
 
 ⚠️ **Caution:** S A I L P E R F - N2K is in early beta development, many functions are still being developed and tested.
 
-<img src="assets/functional_block.png" width = "800">
+<img src="assets/functional_block.png" width = "600">
 
 
 ### Features
@@ -45,22 +42,23 @@ S A I L P E R F - N2K is an open-source Python library for logging and displayin
 
 <img src="assets/data_flows.png" width = "800">
 
-1.  AsctiSence.
-2.  Signal K.
-3.  NEMA File Reader
-4.  Course Simulator
-5.  NMEA Handler
-6.  Stream Reader
-7.  WebServer. 
-8.  SensorPipeline
-9.  Raw Logs
-10. SQLite. 
+1.  ActiSence: The Actisense W2K-1 is a compact, low-power NMEA 2000 to Wi-Fi gateway with data logging capabilities.
+2.  Signal K:  A library used for reading NMEA 2000 data from a Raspberry Pi with a PiCAN Hat. 
+3.  NMEA File Reader:   Used to send a  existing NMEA log file for analysis.
+4.  Course Simulator:  Used to create race courses with common polars for testing. 
+5.  NMEA Handler: Parses data for each NMEA Talker ID and some PGNs.
+6.  Stream Reader:  Reads realtime socket data in a thread. 
+7.  WebServer:  CherryPy Web server provides UI and admin functions. 
+8.  SensorPipeline: Holds 'point in time' data.
+9.  Raw Logs:  Raw and processed data in ASCII format.
+10. SQLite:  A lightweight SQLite database for data storage..
 
 
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/lindsaymcrory/SailPerf-N2K.git  
+   git clone https://github.com/lindsaymcrory/sailperf_n2k.git  
+   rm -rf .git
 
 
 ##### **Usage**
@@ -74,11 +72,6 @@ Explain how users can run the project and interact with it.
 
 ### Limitations 
 -Not a e
-
-### Futures.
--Support NEMA Hat on pi 
--Ananysis support 
--data merge with none NMEA - oe. prostart.
 
 ## Screenshots
 ![Dashboard](https://example.com/screenshot.png)
