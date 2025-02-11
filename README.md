@@ -63,12 +63,10 @@
 
 ##### **Usage**
 Explain how users can run the project and interact with it.
+1) Install with Actisence, 
+2) Install with Raspberry PI-CAN Hat,
+3) Use in standalone mode.
 
-```markdown
-## Usage
-1. Connect your NMEA2000 network to the system.
-2. Access the web dashboard via your browser at `http://<device-ip>:<port>`.
-3. View real-time data, log files, or use the API for advanced analysis.
 
 ### Limitations 
 -Not a e

@@ -29,7 +29,7 @@ import random  # for simulated values.
 
 from NMEAHandlers import NMEAHandlers
 #from SensorPipeline import sensorpipeline  # import the running class
-from NMEAFileReader import FileReader 
+from NMEAFileReader import NMEAFileReader 
 
 class StreamReader:
     """ 
@@ -57,7 +57,7 @@ class StreamReader:
 
         self.done_event = threading.Event()  # Create an event to signal termination.
         self.nmea_handler = NMEAHandlers()
-        self.file_reader = FileReader()
+        self.file_reader = NMEAFileReader()
         self.create_simulated_waypoints()    # only needed if course simulation is used.
         
  
