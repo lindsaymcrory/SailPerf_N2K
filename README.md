@@ -8,7 +8,7 @@
 
 
 
-### S A I L P E R F - N2K* is an open-source Python library for logging and displaying NMEA2000 data for sailboat performance analysis.  
+### S A I L P E R F - N2K* is an open-source Python library for logging and displaying NMEA2000 data for sailboat performance analysis. Sailperf-N2K' provides consumable data for post race analysis.  
 
 ⚠️ **Caution:** S A I L P E R F - N2K is in early beta development, many functions are still being developed and tested.
 
@@ -20,7 +20,6 @@
 - Connects to NMEA 2000 Actisense  W2K1 reader or a  PI CAN M Raspberry pie hat(in testing).
 - Runs on Raspberry PI ( 3 or higher ) or windows / Mac/ Linux device. 
 - Can operate headless (no screen/ keyboard needed)
-
 
 
 ### Functions:
@@ -69,7 +68,7 @@ Explain how users can run the project and interact with it.
 
 
 ### Limitations 
--Not a e
+-Not a ...
 
 ## Screenshots
 ![Dashboard](https://example.com/screenshot.png)

@@ -250,5 +250,5 @@ sensorpipeline = SensorPipeline()
 
 if __name__ == "__main__":
     sensorpipeline.add_reading('latitude',44.44)
-    #sensorpipeline.insert_wind_data(10,25)
+    sensorpipeline.insert_wind_data(10,25)
     print(sensorpipeline.session_status)
